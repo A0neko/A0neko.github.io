@@ -1,0 +1,77 @@
+body {
+   text-align: center;
+    background-image: url(Using_Pictures/MOKUME.png);
+    font-family: "M PLUS Rounded 1c";
+    font-size: 30px; 
+    margin: 0 auto;
+    padding: 0px;
+}
+
+header{
+    position: sticky;
+    top: 0px; 
+
+}
+
+.header{
+    overflow: hidden;
+    list-style: none;
+    margin: 0 auto;
+    z-index: 20;
+    background-color: rgba(0,0,0,0.5);
+}
+.header li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.koumoku{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.midasi{
+    text-shadow:0px 0px 10px black ;
+    color:white
+}
+
+.A0neko_profile{
+    list-style: none;
+    padding : 0;
+}
+
+.A0nekoPicture {
+    width: 300px;
+    box-shadow:  0px 0px 10px 0px black;
+    
+}
+
+.link{
+    display: inline-block;
+    padding: 20px;
+    vertical-align:top;
+}
+
+.twitterlogo{
+    border-radius: 50%;
+    width:100px;
+}
+
+.youtubelogo{
+    width:100px;
+}
+
+.profile{
+    display: inline-block;
+    padding: 20px;
+}
+
+.sakuhin{
+    display:inline-block;
+    vertical-align: middle
+}
+
+.sakuhinpicture{
+    width: 150px;
+}
