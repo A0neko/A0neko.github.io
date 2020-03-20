@@ -1,29 +1,39 @@
-body {
+.TOP {
    text-align: center;
     background-image: url(Using_Pictures/MOKUME.png);
     font-family: "M PLUS Rounded 1c";
-    font-size: 30px; 
+    font-size: 30px;
     margin: 0 auto;
     padding: 0px;
 }
 
-header{
+header {
     position: sticky;
     top: 0px; 
+    background-color: rgba(0,0,0,0.5);
+}
 
+.header-logo {
+    margin: 0;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.migiyose {
+    margin: 0 0 0 auto;
 }
 
 .header{
-    overflow: hidden;
+    display: flex;
+    align-items: center;
     list-style: none;
-    margin: 0 auto;
-    z-index: 20;
-    background-color: rgba(0,0,0,0.5);
+    height: 60px;
+    margin: 0;
+    padding: 0;
 }
+
 .header li {
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
 }
 
 .koumoku{
@@ -67,11 +77,14 @@ header{
     padding: 20px;
 }
 
-.sakuhin{
-    display:inline-block;
-    vertical-align: middle
+.sakuhinitiran {
+    background-image: url(Using_Pictures/MOKUME.png);
+    font-family: "M PLUS Rounded 1c";
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 0px;
 }
 
-.sakuhinpicture{
-    width: 150px;
+.sakuhinkoumoku {
+    background-color: rgba(255,255,255,0.5);
 }
